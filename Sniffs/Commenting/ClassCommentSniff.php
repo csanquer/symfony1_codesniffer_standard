@@ -1,25 +1,11 @@
 <?php
-/**
- * Parses and verifies the doc comments for classes.
- *
- * PHP version 5
- *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   CVS: $Id: ClassCommentSniff.php,v 1.17 2007/11/26 22:11:18 squiz Exp $
- * @link      http://pear.php.net/package/PHP_CodeSniffer
- */
 
 if (class_exists('PHP_CodeSniffer_CommentParser_ClassCommentParser', true) === false) {
     throw new PHP_CodeSniffer_Exception('Class PHP_CodeSniffer_CommentParser_ClassCommentParser not found');
 }
 
-if (class_exists('Symfony_Sniffs_Commenting_FileCommentSniff', true) === false) {
-    throw new PHP_CodeSniffer_Exception('Class Symfony_Sniffs_Commenting_FileCommentSniff not found');
+if (class_exists('Symfony1_Sniffs_Commenting_FileCommentSniff', true) === false) {
+    throw new PHP_CodeSniffer_Exception('Class Symfony1_Sniffs_Commenting_FileCommentSniff not found');
 }
 
 /**
@@ -36,16 +22,8 @@ if (class_exists('Symfony_Sniffs_Commenting_FileCommentSniff', true) === false) 
  *  <li>Check required and optional tags and the format of their content.</li>
  * </ul>
  *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   Release: 1.0.1
- * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Symfony_Sniffs_Commenting_ClassCommentSniff extends Symfony_Sniffs_Commenting_FileCommentSniff
+class Symfony1_Sniffs_Commenting_ClassCommentSniff extends Symfony1_Sniffs_Commenting_FileCommentSniff
 {
 
 

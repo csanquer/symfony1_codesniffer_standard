@@ -1,35 +1,11 @@
 <?php
-/**
- * Symfony_Sniffs_NamingConventions_ValidClassNameSniff.
- *
- * PHP version 5
- *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   CVS: $Id: ValidClassNameSniff.php,v 1.8 2007/11/04 22:29:51 squiz Exp $
- * @link      http://pear.php.net/package/PHP_CodeSniffer
- */
 
 /**
- * Symfony_Sniffs_NamingConventions_ValidClassNameSniff.
- *
  * Ensures class and interface names start with a capital letter
  * and use _ separators.
  *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   Release: 1.0.1
- * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Symfony_Sniffs_NamingConventions_ValidClassNameSniff implements PHP_CodeSniffer_Sniff
+class Symfony1_Sniffs_NamingConventions_ValidClassNameSniff implements PHP_CodeSniffer_Sniff
 {
 
 

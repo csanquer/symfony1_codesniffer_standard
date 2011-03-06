@@ -1,18 +1,4 @@
 <?php
-/**
- * Parses and verifies the doc comments for functions.
- *
- * PHP version 5
- *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   CVS: $Id: FunctionCommentSniff.php,v 1.24 2007/11/23 01:04:48 squiz Exp $
- * @link      http://pear.php.net/package/PHP_CodeSniffer
- */
 
 if (class_exists('PHP_CodeSniffer_CommentParser_FunctionCommentParser', true) === false) {
     throw new PHP_CodeSniffer_Exception('Class PHP_CodeSniffer_CommentParser_FunctionCommentParser not found');
@@ -36,16 +22,8 @@ if (class_exists('PHP_CodeSniffer_CommentParser_FunctionCommentParser', true) ==
  *  <li>Any throw tag must have an exception class.</li>
  * </ul>
  *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   Release: 1.0.1
- * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Symfony_Sniffs_Commenting_FunctionCommentSniff implements PHP_CodeSniffer_Sniff
+class Symfony1_Sniffs_Commenting_FunctionCommentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

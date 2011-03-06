@@ -1,37 +1,14 @@
 <?php
-/**
- * Symfony_Sniffs_NamingConventions_ValidVariableNameSniff.
- *
- * PHP version 5
- *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   CVS: $Id: ValidVariableNameSniff.php,v 1.1 2008/01/31 22:17:02 squiz Exp $
- * @link      http://pear.php.net/package/PHP_CodeSniffer
- */
-
 if (class_exists('PHP_CodeSniffer_Standards_AbstractVariableSniff', true) === false) {
     $error = 'Class PHP_CodeSniffer_Standards_AbstractVariableSniff not found';
     throw new PHP_CodeSniffer_Exception($error);
 }
 
 /**
- * Symfony_Sniffs_NamingConventions_ValidVariableNameSniff.
- *
  * Checks the naming of member variables.
  *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   Release: 1.0.1
- * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Symfony_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_CodeSniffer_Standards_AbstractVariableSniff
+class Symfony1_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_CodeSniffer_Standards_AbstractVariableSniff
 {
 
 

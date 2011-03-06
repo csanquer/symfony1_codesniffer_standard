@@ -1,34 +1,10 @@
 <?php
-/**
- * Symfony_Sniffs_Functions_FunctionCallArgumentSpacingSniff.
- *
- * PHP version 5
- *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   CVS: $Id: FunctionCallArgumentSpacingSniff.php,v 1.8 2007/07/23 01:47:53 squiz Exp $
- * @link      http://pear.php.net/package/PHP_CodeSniffer
- */
 
 /**
- * Symfony_Sniffs_Functions_FunctionCallArgumentSpacingSniff.
- *
  * Checks that calls to methods and functions are spaced correctly.
  *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   Release: 1.0.1
- * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Symfony_Sniffs_Functions_FunctionCallArgumentSpacingSniff implements PHP_CodeSniffer_Sniff
+class Symfony1_Sniffs_Functions_FunctionCallArgumentSpacingSniff implements PHP_CodeSniffer_Sniff
 {
 
 

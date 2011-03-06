@@ -1,39 +1,16 @@
 <?php
-/**
- * Symfony_Sniffs_NamingConventions_ValidFunctionNameSniff.
- *
- * PHP version 5
- *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   CVS: $Id: ValidFunctionNameSniff.php,v 1.18 2008/01/22 23:50:23 squiz Exp $
- * @link      http://pear.php.net/package/PHP_CodeSniffer
- */
 
 if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false) {
     throw new PHP_CodeSniffer_Exception('Class PHP_CodeSniffer_Standards_AbstractScopeSniff not found');
 }
 
 /**
- * Symfony_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * Ensures method names are correct depending on whether they are public
  * or private, and that functions are named correctly.
  *
- * @category  PHP
- * @package   PHP_CodeSniffer
- * @author    Greg Sherwood <gsherwood@squiz.net>
- * @author    Marc McIntyre <mmcintyre@squiz.net>
- * @copyright 2006 Squiz Pty Ltd (ABN 77 084 670 600)
- * @license   http://matrix.squiz.net/developer/tools/php_cs/licence BSD Licence
- * @version   Release: 1.0.1
- * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Symfony_Sniffs_NamingConventions_ValidFunctionNameSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
+class Symfony1_Sniffs_NamingConventions_ValidFunctionNameSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
 {
 
     /**
