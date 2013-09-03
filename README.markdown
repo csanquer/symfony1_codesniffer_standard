@@ -1,4 +1,4 @@
-Symfony 1 CodeSniffer Standard
+Symfony 1 CodeSniffer Standard  [![Project Status](http://stillmaintained.com/csanquer/symfony1_codesniffer_standard.png)](http://stillmaintained.com/csanquer/symfony1_codesniffer_standard)
 ==============================
 
 based on original work from Anish [blog post](http://my-techs.blogspot.com/2008/12/php-codesniffer-standard-for-symfony.html)
